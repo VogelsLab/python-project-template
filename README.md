@@ -31,6 +31,7 @@ See also
   **or Run `make init` after cloning to generate a new project based on a template.**
 - 📦 A basic [setup.py](setup.py) file to provide installation, packaging and distribution for your project.  
   Template uses setuptools because it's the de-facto standard for Python packages, you can run `make switch-to-poetry` later if you want.
+  The modern approach is to use a `pyproject.toml` file. Have a look at [https://github.com/VogelsLab/isigubhu-spike-time-analysis](https://github.com/VogelsLab/isigubhu-spike-time-analysis/blob/main/pyproject.toml) for an example.
 - 🤖 A [Makefile](Makefile) with the most useful commands to install, test, lint, format and release your project.
 - 📃 Documentation structure using [mkdocs](http://www.mkdocs.org)
 - 💬 Auto generation of change log using **gitchangelog** to keep a HISTORY.md file automatically based on your commit history on every release.
